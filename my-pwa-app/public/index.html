@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página simple con encabezado, cuerpo y pie de página">
+  <title>Página Simple</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #282c34;
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+
+    header nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      flex-grow: 1;
+      text-align: center;
+    }
+
+    footer {
+      background-color: #282c34;
+      padding: 10px;
+      color: white;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Mi Página Simple</h1>
+    <nav>
+      <a href="#home">Inicio</a>
+      <a href="#about">Acerca de</a>
+      <a href="#contact">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Bienvenido a Mi Página Simple</h2>
+    <p>Este es un ejemplo básico de una página con un encabezado, cuerpo y pie de página.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mi Página Simple. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
